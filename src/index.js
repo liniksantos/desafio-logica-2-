@@ -1,6 +1,9 @@
+//  chamada da função
+let resultado = nivelDoHeroi(75, 20)
+
 
 function nivelDoHeroi(QtdVitorias, QtdDerrotas) {
-    //calcula o slado das vitorias
+    //calcula o saldo das vitorias
     let saldoRankeadas = QtdVitorias - QtdDerrotas
 
     // variavel onde declara o nivel 
@@ -26,9 +29,6 @@ function nivelDoHeroi(QtdVitorias, QtdDerrotas) {
     // retorno da Saída
     return { saldoRankeadas, nivel }
 }
-
-//  chamada da função
-let resultado = nivelDoHeroi(75, 20)
 
 // saída final
 console.log( "O Herói tem saldo de " + resultado.saldoRankeadas + " e está no nível de " + resultado.nivel )
